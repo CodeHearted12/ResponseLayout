@@ -1,0 +1,109 @@
+/*
+
+    COLORS
+
+    Pink   : #ffdddd
+    Purple : #ddddff
+    Green  : #ddffdd
+    Blue   : #ddffff
+    Yellow : #ffffdd
+
+    BREAKPOINTS
+
+    600px
+    1100px
+
+*/
+
+
+
+body{
+    font-family: Palatino, Times, serif;
+    background-color: #ddffdd;
+    margin: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+
+ul{
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+
+
+h2, h3{
+    margin-bottom: 0;
+}
+
+#MyCont
+{
+background-color: #ddffff;
+display: flex;
+
+}
+
+a{
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}
+
+h1, h2, h3{
+    color: #009999;
+}
+
+
+header{
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddddff;
+}
+
+#Mycontainer{
+    padding: 20px;
+    max-width: 1100px;
+    margin: 10px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+#naviG{
+    text-align: center;
+}
+
+#naviG a{
+    display: block;
+    padding: 10px 2%;
+    background: #ffdddd;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#naviG a:hover{
+    background: #ddddff;
+}
+
+#naviG{
+display: flex;
+justify-content: flex-end;
+}
+#sidebar_content
+ {
+  display: flex;
+  background-color: #ffffdd;
+  justify-content: space-around;
+      margin: 10px 0;
+}
+
+#site_footer
+{
+      background-color: #ffd699;
+}
