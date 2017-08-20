@@ -25,7 +25,18 @@ body{
     line-height: 1.6;
 }
 
-
+a {
+  display: block;
+  padding: 10px 2%;
+  background: #ffdddd;
+  margin: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
 ul{
     padding-left: 20px;
